@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keerthi Kora - Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap">
+  <script src="https://kit.fontawesome.com/5eb2c51ffb.js" crossorigin="anonymous"></script>
+
+  <style>
+    :root {
+      --bg-light: #fef6f9;
+      --bg-accent: #e4dcf1;
+      --box-bg: #ffffff;
+      --text-primary: #333;
+      --highlight: #cdb4db;
+      --border-radius: 20px;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-light);
+      color: var(--text-primary);
+    }
+
+    header {
+      background: linear-gradient(135deg, #e4dcf1, #fcd5ce);
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom-left-radius: var(--border-radius);
+      border-bottom-right-radius: var(--border-radius);
+    }
+
+    .profile-photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+    }
+
+    nav {
+      background: #b8c0ff;
+      padding: 10px 0;
+      border-radius: var(--border-radius);
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    section {
+      background-color: var(--box-bg);
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: var(--border-radius);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .project {
+      background-color: #f0e8f8;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input,
+    form textarea {
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: var(--border-radius);
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background-color: #cdb4db;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: var(--border-radius);
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    form button:hover {
+      background-color: #b8a0cb;
+    }
+
+    .social-links {
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #6d597a;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 0;
+      background-color: #fcd5ce;
+      margin-top: 40px;
+      border-top-left-radius: var(--border-radius);
+      border-top-right-radius: var(--border-radius);
+    }
+
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      section {
+        margin: 15px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="myphoto.jpg" alt="Keerthi Kora" class="profile-photo" />
+    <h1>Keerthi Priya</h1>
+    <h2>Web Developer</h2>
+    <p>Excellence is not an act, it's a habit.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m <strong>Keerthi Kora</strong> — a B.Tech CSE student with a love for clean design, smart code, and meaningful projects.I enjoy creating modern, responsive websites using <strong>HTML, CSS, and JavaScript</strong>. I'm naturally curious, creatively driven, and excited to grow in the tech world through hands-on learning and real-world experiences.</p>
+
+     <h3>Skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <h3>Education</h3>
+    <div class="project">
+      <p><strong>Degree:</strong> B.Tech in Computer Science Engineering</p>
+      <p><strong>Institution:</strong> Gandhi Institute of Technology and Management (GITAM)</p>
+      <p><strong>Years:</strong> 2023 – 2027</p>
+    </div>
+
+    <h3>Hobbies</h3>
+    <p>Travel, Art Journaling, and Reading</p>
+    <h3 style="color: #6a4c93;">🌱 Personal Attributes</h3>
+    <div class="project">
+    <ul style="list-style: none; padding-left: 0;">
+      <li>🧠 Problem Solving</li>
+      <li>🤝 Team Collaboration</li>
+      <li>💬 Strong Communication</li>
+      <li>⏱️ Time Management</li>
+      <li>🔍 Attention to Detail</li>
+      <li>⚡ Quick Learner</li>
+    </ul>
+  </div>
+
+  <h3>Contact Info</h3>
+    <div class="project">
+      <p><strong>Email:</strong> <a href="mailto:korakeerthipriya@gmail.com">korakeerthipriya@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+919741068606">9741068606</a></p>
+    </div>
+</section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio to showcase my skills and projects using HTML, CSS, and JavaScript.</p>
+      <p><strong>Tech Stack:</strong> HTML, CSS, JS</p>
+    </div>
+    <div class="project">
+      <h3>Language Translator App</h3>
+      <p>A multilingual translator that uses Firebase and speech APIs to help users communicate effectively.</p>
+      <p><strong>Tech Stack:</strong> HTML, CSS</p>
+    </div>
+    <div class="project">
+      <h3>To-Do List</h3>
+      <p>An interactive to-do list web app with persistent data storage and dynamic task management.</p>
+      <p><strong>Tech Stack:</strong> React, Node.js</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Keerthi Kora. All rights reserved.</p>
+  </footer>
+</body>
+</html>
